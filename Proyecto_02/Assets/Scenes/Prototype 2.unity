@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6f52b946693e54048af74f5cd6ba49f8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -271,7 +271,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.000004, y: -60.000004, z: 0}
 --- !u!1 &175514189 stripped
 GameObject:
@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96451eb5a7f5ccb43963ade07963a58d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 12
   xRange: 16
   PizzaPrefab: {fileID: 2468217490403294427, guid: 83b8f7445223681499dcf2d280da6142,
     type: 3}
@@ -630,8 +630,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 389f76484f8b123499a82fccd63240cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalPrefab: {fileID: 485809768675217373, guid: efe753ecf0cb3e44188da0c6d93e1ea9,
-    type: 3}
+  animalPrefabs:
+  - {fileID: 3092052886456302981, guid: 392e3d49d853fa440b5349eac89b5cd0, type: 3}
+  - {fileID: 8022673618115639594, guid: 736e59a5caf1ba24bbb5536f7c644014, type: 3}
+  - {fileID: 6224452273925491594, guid: c8fe29ed889c7324fb3d48f5d73e86eb, type: 3}
+  - {fileID: 6467176008474395840, guid: 02e9bb3dc2a3dd04dae30237e98fe666, type: 3}
+  - {fileID: 8743818190880243380, guid: 778ed7f45fd3a3546bfd4a00703426e2, type: 3}
+  - {fileID: 5773912567857213159, guid: f777bc7c2b809f74a8538f7afefc971b, type: 3}
+  - {fileID: 485809768675217373, guid: efe753ecf0cb3e44188da0c6d93e1ea9, type: 3}
+  - {fileID: 5302428814859911246, guid: 25979d2d1a247c744835e5387be2bd29, type: 3}
   spawnPosition: {x: 0, y: 0, z: 25}
 --- !u!4 &932728414
 Transform:

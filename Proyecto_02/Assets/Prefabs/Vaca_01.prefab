@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 485809768684765949}
   - component: {fileID: 485809768393934313}
   - component: {fileID: 8523439823132688686}
+  - component: {fileID: 1483513897727631095}
   m_Layer: 0
   m_Name: Vaca_01
   m_TagString: Untagged
@@ -139,6 +140,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a80fb9e2eca72434384ae1e4d7f937d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1483513897727631095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485809768675217373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.055936, y: 32.062634, z: 48.50809}
+  m_Center: {x: 0.04013909, y: 15.53132, z: -0.008577771}
 --- !u!1 &485809768675217595
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485809768675088269}
   - component: {fileID: 485809768680510063}
+  - component: {fileID: 7348975595168316758}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -423,6 +438,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &7348975595168316758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485809768675218373}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 11.172415, y: 32.57899, z: 48.40882}
+  m_Center: {x: -3.9443043e-31, y: 16.289469, z: 0.29143715}
 --- !u!1 &485809768675220489
 GameObject:
   m_ObjectHideFlags: 0
